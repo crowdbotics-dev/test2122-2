@@ -4,4 +4,4 @@ from django.db import models
 
 class Image(models.Model):
     "Generated Model"
-    userimage = models.ImageField(upload_to="/images")
+    userimage = models.BinaryField()
