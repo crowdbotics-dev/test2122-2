@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
                         verbose_name="ID",
                     ),
                 ),
-                ("userimage", models.ImageField(upload_to="/images")),
+                ("userimage", models.ImageField(upload_to="images/")),
             ],
         ),
     ]
